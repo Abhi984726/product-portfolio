@@ -1,1 +1,2 @@
-
+This flow automates the analysis of QA regression result emails. 
+Instead of manually comparing current and previous regression cycles across many modules, the flow parses the email, extracts module level metrics, compares them with the last cycle, identifies regressions or improvements, stores the results centrally, and sends a consolidated summary to BAs and PMs for faster release decisions
