@@ -1,6 +1,6 @@
 # Abhinav Rai — Portfolio
 
-**Product Owner | Digital Lending | Power Platform Automation**
+**Product Owner | Digital Lending | Digital Learning | Power Platform Automation**
 
 📧 raiabhinav2698@gmail.com
 🔗 [LinkedIn](https://linkedin.com)
