@@ -39,7 +39,7 @@ Product Lifecycle Management, Requirement Gathering, User Story Mapping, Sprint 
 Retail Lending (LOS, LMS, Term Loans, Lines of Credit, BNPL), BRE & Credit Policy, Loan Origination, Delinquency & Closure Workflows, Compliance & Risk Awareness
 
 **Tools & Technology**
-JIRA, Power Automate, Power Apps, Power BI, ServiceNow, SQL, Python, Excel
+Excel, Word, PPT, Articulate Storyline, Camtasia, JIRA, Power Automate, Power Apps, Power Automate, Power BI, ServiceNow, SQL, Python
 
 ---
 
