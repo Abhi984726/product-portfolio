@@ -1,4 +1,4 @@
-# Abhinav Rai — Product Portfolio
+# Abhinav Rai — Product Owner Portfolio
 
 **Product Owner | Digital Lending | Power Platform Automation**
 
