@@ -23,6 +23,6 @@
 
 ---
 
-📄 [View Full Case Study](./QA-Regression-Automation.pdf)
+📄 [View Full Case Study](./QA-Regression/QA_Regression_Automation.pdf)
 
 > *Flow definitions and tenant-specific details excluded for confidentiality.*
