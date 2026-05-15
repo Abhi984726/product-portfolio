@@ -1,13 +1,12 @@
 **Layer 1 -- MBP Platform Ecosystem**
 <img width="800" height="647" alt="image" src="https://github.com/user-attachments/assets/c6bff5a7-92e5-42f1-b98e-3769c65af570" />
 
-
 Note: All surrounding platforms are the bank's choice. MBP is the core engine — banks connect their preferred systems via FIS Code Connect open APIs or any third-party API integration.
 
 **Term Loan -- Salaried Borrower Journey Inside MBP**
 <img width="800" height="1200" alt="ChatGPT Image May 15, 2026, 03_45_25 PM" src="https://github.com/user-attachments/assets/4d93a565-4595-488e-9296-c37e2a26d0c3" />
 
-Note: Similar we can have similar flow for Line of Credit and BNPPL.
+Note: We can design similar flow for Line of Credit and BNPPL product.
 
 **Key domain terms:**
 BRE — Business Rule Engine — automated credit decisioning
