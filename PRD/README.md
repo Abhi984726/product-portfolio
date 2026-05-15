@@ -8,7 +8,7 @@
 
 ## Context
 
-These PRDs are based on real lending workflows from the FIS Modern Banking Platform (MBP) — a core banking platform used by institutional banking clients globally. As a Product Owner at FIS Global, I owned the end-to-end digital journey for lending workflows — covering onboarding, origination, disbursement, delinquency, and closure. These PRDs capture the product requirements for eLearning simulation modules built to help bank employees understand how these workflows behave within the FIS MBP system.
+These PRDs are based on real lending workflows from the FIS Modern Banking Platform (MBP) — a core banking platform used by institutional banking clients globally. As a Product Owner at FIS Global, I owned the end-to-end digital learning journey for lending workflows — covering onboarding, origination, disbursement, delinquency, and closure. These PRDs capture the product requirements for eLearning simulation modules built to help bank employees understand how these workflows behave within the FIS MBP system.
 
 ---
 
