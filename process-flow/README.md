@@ -1,32 +1,67 @@
 **Layer 1 -- MBP Platform Ecosystem**
-┌─────────────────────────────────────────────────────────────────────┐
-│                   BANK'S ECOSYSTEM — Bank's choice                  │
-│                                                                     │
-│  Lead / Origination Channel                                         │
-│  FIS Digital One · Salesforce FSC · nCino · Blend · any platform   │
-│                              ↓                                      │
-│  ┌ ─ ─ ─ ─ ─ FIS Code Connect — Open API Layer (1000+ APIs) ─ ─ ─┐ │
-│  │                                                                │ │
-│  │          ┌─────────────────────────────────┐                  │ │
-│  │          │   FIS Modern Banking Platform   │                  │ │
-│  │          │         Core Engine             │                  │ │
-│  │          │                                 │                  │ │
-│  │  Credit  │  Foundational · Customer        │  Customer        │ │
-│  │  Bureau ←│  Account Engine · Compliance    │→ Comms           │ │
-│  │  FICO    │  Real-time Data · Operations    │  TouchCX         │ │
-│  │  Experian│                                 │  Alerts          │ │
-│  │  Equifax │  Term Loan · LOC · BNPL         │  Notices         │ │
-│  │          │  Deposits · Collections         │                  │ │
-│  │  Fraud & │                                 │  Compliance      │ │
-│  │  Risk   ←│                                 │→ FATCA · AML     │ │
-│  │  LexisN. │                                 │  KYC             │ │
-│  │          └─────────────────────────────────┘                  │ │
-│  └ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┘ │
-│                              ↓                                      │
-│  Payment Rails                                                      │
-│  ACH · FedNow · FedWire · RTP · any payment hub                    │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
+graph TD
+    %% Styling and Definitions
+    classDef ecosystem fill:#f4f5f7,stroke:#333,stroke-width:2px;
+    classDef layer fill:#ffffff,stroke:#0052cc,stroke-width:2px,stroke-dasharray: 5 5;
+    classDef core fill:#e6f0ff,stroke:#0052cc,stroke-width:2px;
+    classDef nodeStyle fill:#fff,stroke:#666,stroke-width:1px;
+
+    %% Main Container Box (Represented logically via hierarchy)
+    subgraph BE [BANK'S ECOSYSTEM — Bank's Choice]
+        
+        %% Top Layer: Origination
+        subgraph LOC [Lead / Origination Channel]
+            channels[FIS Digital One • Salesforce FSC • nCino • Blend • Any Platform]
+        end
+
+        %% Middle Layer: API and Core
+        subgraph API [FIS Code Connect — Open API Layer 1000+ APIs]
+            
+            %% Core Engine
+            subgraph MBP [FIS Modern Banking Platform — Core Engine]
+                direction TB
+                foundational[Foundational • Customer • Account Engine<br>Compliance • Real-time Data • Operations]
+                products[Term Loan • LOC • BNPL<br>Deposits • Collections]
+            end
+            
+            %% External Dependencies connected to Core
+            subgraph Left_Integrations [Risk & Credit Verification]
+                direction TB
+                cb[Credit Bureau:<br>FICO • Experian • Equifax]
+                fr[Fraud & Risk:<br>LexisNexis]
+            end
+
+            subgraph Right_Integrations [Communications & Compliance]
+                direction TB
+                cc[Customer Comms:<br>TouchCX • Alerts • Notices]
+                comp[Compliance:<br>FATCA • AML • KYC]
+            end
+
+        end
+
+        %% Bottom Layer: Payments
+        subgraph PR [Payment Rails]
+            payments[ACH • FedNow • FedWire • RTP • Any Payment Hub]
+        end
+
+    end
+
+    %% Flow Connections
+    channels --> API
+    
+    %% Internal API Core Connections
+    MBP <--> Left_Integrations
+    MBP --> Right_Integrations
+    
+    %% Core to Payments
+    API --> payments
+
+    %% Apply Styles
+    class BE ecosystem;
+    class API layer;
+    class MBP core;
+    class channels,payments,cb,fr,cc,comp,foundational,products nodeStyle;
+
 
 Note: All surrounding platforms are the bank's choice. MBP is the core engine — banks connect their preferred systems via FIS Code Connect open APIs or any third-party API integration.
 
