@@ -1,4 +1,4 @@
-** Layer 1 -- MBP Platform Ecosystem **
+*** Layer 1 -- MBP Platform Ecosystem ***
 ┌─────────────────────────────────────────────────────────────────────┐
 │                   BANK'S ECOSYSTEM — Bank's choice                  │
 │                                                                     │
