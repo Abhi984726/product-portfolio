@@ -1,4 +1,4 @@
-*** Layer 1 -- MBP Platform Ecosystem ***
+**Layer 1 -- MBP Platform Ecosystem**
 ┌─────────────────────────────────────────────────────────────────────┐
 │                   BANK'S ECOSYSTEM — Bank's choice                  │
 │                                                                     │
@@ -30,7 +30,7 @@
 
 Note: All surrounding platforms are the bank's choice. MBP is the core engine — banks connect their preferred systems via FIS Code Connect open APIs or any third-party API integration.
 
-** Term Loan -- Salaried Borrower Journey Inside MBP **
+**Term Loan -- Salaried Borrower Journey Inside MBP**
 Lead / application received
 (Passed into MBP from channel of bank's choice)
         ↓
@@ -64,7 +64,7 @@ EMI collection via ACH (recurring)
 └─────────────────────────────────┘
 Note: Similar we can have similar flow for Line of Credit and BNPPL.
 
-** Key domain terms: **
+**Key domain terms:**
 BRE — Business Rule Engine — automated credit decisioning
 FICO — US credit score (equivalent of CIBIL in India) — pulled from Experian, Equifax, or TransUnion
 FOIR — Fixed Obligation to Income Ratio — EMI vs income check
