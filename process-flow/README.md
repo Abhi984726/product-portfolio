@@ -9,11 +9,11 @@ Note: All surrounding platforms are the bank's choice. MBP is the core engine �
 Note: We can design similar flow for Line of Credit and BNPL product.
 
 **Key domain terms:**
-BRE — Business Rule Engine — automated credit decisioning
-FICO — US credit score (equivalent of CIBIL in India) — pulled from Experian, Equifax, or TransUnion
-FOIR — Fixed Obligation to Income Ratio — EMI vs income check
-FATCA — Foreign Account Tax Compliance Act — US regulatory compliance
-ACH — Automated Clearing House — standard payment rail for EMI collection and disbursement
-FedNow — Federal Reserve instant payment rail — real-time disbursement
-FedWire — Federal Reserve large-value payment rail — high-value transfers
-DPD — Days Past Due — delinquency classification
+- BRE — Business Rule Engine — automated credit decisioning
+- FICO — US credit score (equivalent of CIBIL in India) — pulled from Experian, Equifax, or TransUnion
+- FOIR — Fixed Obligation to Income Ratio — EMI vs income check
+- FATCA — Foreign Account Tax Compliance Act — US regulatory compliance
+- ACH — Automated Clearing House — standard payment rail for EMI collection and disbursement
+- FedNow — Federal Reserve instant payment rail — real-time disbursement
+- FedWire — Federal Reserve large-value payment rail — high-value transfers
+- DPD — Days Past Due — delinquency classification
