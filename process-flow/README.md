@@ -5,8 +5,7 @@ Note: All surrounding platforms are the bank's choice. MBP is the core engine �
 
 **Term Loan -- Salaried Borrower Journey Inside MBP**
 <img width="800" height="1200" alt="ChatGPT Image May 15, 2026, 03_45_25 PM" src="https://github.com/user-attachments/assets/4d93a565-4595-488e-9296-c37e2a26d0c3" />
-
-Note: We can design similar flow for Line of Credit and BNPPL product.
+Note: We can design similar flow for Line of Credit and BNPL product.
 
 **Key domain terms:**
 BRE — Business Rule Engine — automated credit decisioning
