@@ -27,7 +27,7 @@ I hold an **e-Masters in Financial Technology & Management from IIT Kanpur**.
 | 3 | [Training Effectiveness & Manager Feedback Automation](./Training-Feedback-Automation) | Learning & Feedback | Power Automate, Excel, Outlook | Automation |
 | 4 | [PRD — Term Loan Delinquency](./PRD-Portfolio) | Retail Lending | Product Management | PRD |
 | 5 | [PRD — Term Loan Closure](./PRD-Portfolio) | Retail Lending | Product Management | PRD |
-| 6 | [Prpcess Flow — Term Loan --Salaried Borrower](./process-flow) | Retail Lending | Product Management | Process Flow |
+| 6 | [Process Flow — Term Loan --Salaried Borrower](./process-flow) | Retail Lending | Product Management | Process Flow |
 
 ---
 
