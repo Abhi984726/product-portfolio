@@ -36,6 +36,9 @@ I hold an **e-Masters in Financial Technology & Management from IIT Kanpur**.
 **Product & Agile**
 Product Lifecycle Management, Requirement Gathering, User Story Mapping, Sprint Planning, Backlog Prioritization, DOR/DOD, Stakeholder Management, Agile/Scrum Frameworks
 
+**Process & Automation**
+Process Mapping, Need Analysis, RCA, Process Improvement, Automation
+
 **Banking & Fintech Domain**
 Retail Lending (LOS, LMS, Term Loans, Lines of Credit, BNPL), BRE & Credit Policy, Loan Origination, Delinquency & Closure Workflows, Compliance & Risk Awareness
 
