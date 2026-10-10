@@ -25,8 +25,8 @@ I hold an **e-Masters in Financial Technology & Management from IIT Kanpur**.
 | 1 | [QA Regression Analysis & Reporting Automation](./QA-Regression) | QA & Reporting | Power Automate, SharePoint | Automation |
 | 2 | [Tuition Assistance Program Approval Automation](./Tuition-Assistance-Automation) | HR & Approvals | Power Apps, Power Automate, SharePoint | Automation |
 | 3 | [Training Effectiveness & Manager Feedback Automation](./Training-Feedback-Automation) | Learning & Feedback | Power Automate, Excel, Outlook | Automation |
-| 4 | [PRD — Term Loan Delinquency](./PRD) | Retail Lending | Product Management | PRD |
-| 5 | [PRD — Term Loan Closure](./PRD) | Retail Lending | Product Management | PRD |
+| 4 | [PRD — Term Loan Delinquency](./PRD) | Retail Lending | MS Word | Product Management |
+| 5 | [PRD — Term Loan Closure](./PRD) | Retail Lending | MS Word | Product Management |
 | 6 | [Process Flow — Term Loan — Salaried Borrower](./process-flow) | Retail Lending | Product Management | Process Flow |
 
 ---
