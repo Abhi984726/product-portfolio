@@ -1,6 +1,6 @@
 # Abhinav Rai — Portfolio
 
-**Product Owner | Digital Lending | Digital Learning | Power Platform Automation**
+**Consultant | Aspiring Product Manager | Digital Banking**
 
 📧 raiabhinav2698@gmail.com
 🔗 [LinkedIn](https://linkedin.com)
@@ -10,7 +10,7 @@
 
 ## About Me
 
-Product Owner with ~3 years of experience in retail lending workflows at **FIS Global** — one of the world's largest financial technology companies. I have owned end-to-end digital journeys for the FIS Modern Banking Platform (MBP) lending suite — covering onboarding, origination, disbursement, delinquency, and closure workflows for products including Term Loan, LOC, and BNPL.
+Consultant with hands-on experience translating end-to-end lending workflows (onboarding, origination, disbursement, delinquency, & closure) logic into functional specifications used to develop learning materials. Track record of internal process automation, reducing manual processing time by 80% and ticket resolution time by 60% through Power Platform and workflow redesign.
 
 I follow a complete agile delivery cycle — sprint planning, story point estimation, DOR, DOD, and retrospectives — collaborating with Lending SMEs, Dev, UI/UX, and QA teams.
 
